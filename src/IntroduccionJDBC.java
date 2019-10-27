@@ -25,8 +25,8 @@ public class IntroduccionJDBC
             while(resultado.next())
             {
                 System.out.print(" id persona :"+ resultado.getInt(1)+",");
-                System.out.print(" persona nombre :"+ resultado.getString(2));
-                System.out.println(" ");
+                System.out.println(" persona nombre :"+ resultado.getString(2));
+
             }
 
             //cerrar todos los objetos usados
